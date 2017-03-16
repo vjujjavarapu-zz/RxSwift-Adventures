@@ -1,0 +1,11 @@
+use_frameworks!
+    target 'Jolly' do
+        pod 'Alamofire'
+        pod 'SwiftyJSON'
+        pod 'ObjectMapper'
+        pod 'RxAlamofire'
+        pod 'RxCocoa'
+        pod 'RxSwift'
+        pod 'Kingfisher'
+        pod 'Cosmos'
+    end

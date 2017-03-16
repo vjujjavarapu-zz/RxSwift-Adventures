@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3514A2A31E7B2362006F5BFE /* YelpBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3514A2A21E7B2362006F5BFE /* YelpBusiness.swift */; };
+		3593CAFA1E706F450008AEF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3593CAF91E706F450008AEF2 /* AppDelegate.swift */; };
+		3593CAFC1E706F450008AEF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3593CAFB1E706F450008AEF2 /* ViewController.swift */; };
+		3593CAFF1E706F450008AEF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3593CAFD1E706F450008AEF2 /* Main.storyboard */; };
+		3593CB011E706F450008AEF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3593CB001E706F450008AEF2 /* Assets.xcassets */; };
+		3593CB041E706F450008AEF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3593CB021E706F450008AEF2 /* LaunchScreen.storyboard */; };
+		3593CB0F1E706F450008AEF2 /* JollyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3593CB0E1E706F450008AEF2 /* JollyTests.swift */; };
+		3593CB1A1E706F450008AEF2 /* JollyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3593CB191E706F450008AEF2 /* JollyUITests.swift */; };
+		3593CB281E7072490008AEF2 /* YelpAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3593CB271E7072490008AEF2 /* YelpAuthentication.swift */; };
+		3593CB2A1E7073390008AEF2 /* YelpSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3593CB291E7073390008AEF2 /* YelpSetup.swift */; };
+		3593CB2C1E7074090008AEF2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 3593CB2B1E7074090008AEF2 /* Podfile */; };
+		3593CB301E70870F0008AEF2 /* YelpBusinessViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3593CB2F1E70870F0008AEF2 /* YelpBusinessViewModel.swift */; };
+		3593CB391E71CFFD0008AEF2 /* YBCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3593CB381E71CFFD0008AEF2 /* YBCell.swift */; };
+		3593CB3B1E71D3D50008AEF2 /* YelpRichBusinessDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3593CB3A1E71D3D50008AEF2 /* YelpRichBusinessDetail.swift */; };
+		3593CB3D1E71D4F70008AEF2 /* YelpBusinessCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3593CB3C1E71D4F70008AEF2 /* YelpBusinessCategory.swift */; };
+		3593CB3F1E71D5ED0008AEF2 /* YelpBusinessCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3593CB3E1E71D5ED0008AEF2 /* YelpBusinessCoordinate.swift */; };
+		3593CB411E71D7060008AEF2 /* YelpBusinessLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3593CB401E71D7060008AEF2 /* YelpBusinessLocation.swift */; };
+		35C85B761E798FEB001DDE09 /* YelpRichBusinessDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C85B751E798FEB001DDE09 /* YelpRichBusinessDetailViewController.swift */; };
+		8D27B254C0BA6CF326CAE3C1 /* Pods_Jolly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3220EB1F85382B8FCEC1282B /* Pods_Jolly.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3593CB0B1E706F450008AEF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3593CAEE1E706F450008AEF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3593CAF51E706F450008AEF2;
+			remoteInfo = Jolly;
+		};
+		3593CB161E706F450008AEF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3593CAEE1E706F450008AEF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3593CAF51E706F450008AEF2;
+			remoteInfo = Jolly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3220EB1F85382B8FCEC1282B /* Pods_Jolly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jolly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3514A2A21E7B2362006F5BFE /* YelpBusiness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpBusiness.swift; sourceTree = "<group>"; };
+		3593CAF61E706F450008AEF2 /* Jolly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jolly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3593CAF91E706F450008AEF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3593CAFB1E706F450008AEF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3593CAFE1E706F450008AEF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3593CB001E706F450008AEF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3593CB031E706F450008AEF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3593CB051E706F450008AEF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3593CB0A1E706F450008AEF2 /* JollyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JollyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3593CB0E1E706F450008AEF2 /* JollyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JollyTests.swift; sourceTree = "<group>"; };
+		3593CB101E706F450008AEF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3593CB151E706F450008AEF2 /* JollyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JollyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3593CB191E706F450008AEF2 /* JollyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JollyUITests.swift; sourceTree = "<group>"; };
+		3593CB1B1E706F450008AEF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3593CB271E7072490008AEF2 /* YelpAuthentication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpAuthentication.swift; sourceTree = "<group>"; };
+		3593CB291E7073390008AEF2 /* YelpSetup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpSetup.swift; sourceTree = "<group>"; };
+		3593CB2B1E7074090008AEF2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3593CB2F1E70870F0008AEF2 /* YelpBusinessViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpBusinessViewModel.swift; sourceTree = "<group>"; };
+		3593CB381E71CFFD0008AEF2 /* YBCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YBCell.swift; sourceTree = "<group>"; };
+		3593CB3A1E71D3D50008AEF2 /* YelpRichBusinessDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpRichBusinessDetail.swift; sourceTree = "<group>"; };
+		3593CB3C1E71D4F70008AEF2 /* YelpBusinessCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpBusinessCategory.swift; sourceTree = "<group>"; };
+		3593CB3E1E71D5ED0008AEF2 /* YelpBusinessCoordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpBusinessCoordinate.swift; sourceTree = "<group>"; };
+		3593CB401E71D7060008AEF2 /* YelpBusinessLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpBusinessLocation.swift; sourceTree = "<group>"; };
+		35C85B751E798FEB001DDE09 /* YelpRichBusinessDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpRichBusinessDetailViewController.swift; sourceTree = "<group>"; };
+		CAA46FC34B542CB38D9AB5B7 /* Pods-Jolly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jolly.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jolly/Pods-Jolly.debug.xcconfig"; sourceTree = "<group>"; };
+		E636E15433FFD103FEDE2DB9 /* Pods-Jolly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jolly.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jolly/Pods-Jolly.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3593CAF31E706F450008AEF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D27B254C0BA6CF326CAE3C1 /* Pods_Jolly.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3593CB071E706F450008AEF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3593CB121E706F450008AEF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3593CAED1E706F450008AEF2 = {
+			isa = PBXGroup;
+			children = (
+				3593CB2B1E7074090008AEF2 /* Podfile */,
+				3593CAF81E706F450008AEF2 /* Jolly */,
+				3593CB0D1E706F450008AEF2 /* JollyTests */,
+				3593CB181E706F450008AEF2 /* JollyUITests */,
+				3593CAF71E706F450008AEF2 /* Products */,
+				9126943DFF809466BCF119EB /* Pods */,
+				55874BEA9A9A0C25AE2E1B74 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3593CAF71E706F450008AEF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3593CAF61E706F450008AEF2 /* Jolly.app */,
+				3593CB0A1E706F450008AEF2 /* JollyTests.xctest */,
+				3593CB151E706F450008AEF2 /* JollyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3593CAF81E706F450008AEF2 /* Jolly */ = {
+			isa = PBXGroup;
+			children = (
+				3593CB311E70B0E50008AEF2 /* Model */,
+				3593CB341E70B1130008AEF2 /* View */,
+				3593CB321E70B0F80008AEF2 /* ViewModel */,
+				3593CB331E70B1040008AEF2 /* Protocols */,
+				3593CB361E70B12A0008AEF2 /* Resources */,
+				3593CAF91E706F450008AEF2 /* AppDelegate.swift */,
+			);
+			path = Jolly;
+			sourceTree = "<group>";
+		};
+		3593CB0D1E706F450008AEF2 /* JollyTests */ = {
+			isa = PBXGroup;
+			children = (
+				3593CB0E1E706F450008AEF2 /* JollyTests.swift */,
+				3593CB101E706F450008AEF2 /* Info.plist */,
+			);
+			path = JollyTests;
+			sourceTree = "<group>";
+		};
+		3593CB181E706F450008AEF2 /* JollyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3593CB191E706F450008AEF2 /* JollyUITests.swift */,
+				3593CB1B1E706F450008AEF2 /* Info.plist */,
+			);
+			path = JollyUITests;
+			sourceTree = "<group>";
+		};
+		3593CB311E70B0E50008AEF2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3593CB291E7073390008AEF2 /* YelpSetup.swift */,
+				3514A2A21E7B2362006F5BFE /* YelpBusiness.swift */,
+				3593CB3A1E71D3D50008AEF2 /* YelpRichBusinessDetail.swift */,
+				3593CB3C1E71D4F70008AEF2 /* YelpBusinessCategory.swift */,
+				3593CB3E1E71D5ED0008AEF2 /* YelpBusinessCoordinate.swift */,
+				3593CB401E71D7060008AEF2 /* YelpBusinessLocation.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3593CB321E70B0F80008AEF2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3593CB2F1E70870F0008AEF2 /* YelpBusinessViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		3593CB331E70B1040008AEF2 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3593CB271E7072490008AEF2 /* YelpAuthentication.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		3593CB341E70B1130008AEF2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3593CAFB1E706F450008AEF2 /* ViewController.swift */,
+				35C85B751E798FEB001DDE09 /* YelpRichBusinessDetailViewController.swift */,
+				3593CB381E71CFFD0008AEF2 /* YBCell.swift */,
+				3593CAFD1E706F450008AEF2 /* Main.storyboard */,
+				3593CB021E706F450008AEF2 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3593CB361E70B12A0008AEF2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3593CB001E706F450008AEF2 /* Assets.xcassets */,
+				3593CB051E706F450008AEF2 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		55874BEA9A9A0C25AE2E1B74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3220EB1F85382B8FCEC1282B /* Pods_Jolly.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9126943DFF809466BCF119EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAA46FC34B542CB38D9AB5B7 /* Pods-Jolly.debug.xcconfig */,
+				E636E15433FFD103FEDE2DB9 /* Pods-Jolly.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3593CAF51E706F450008AEF2 /* Jolly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3593CB1E1E706F450008AEF2 /* Build configuration list for PBXNativeTarget "Jolly" */;
+			buildPhases = (
+				4623ACD63278D7924F2C9AD3 /* [CP] Check Pods Manifest.lock */,
+				3593CAF21E706F450008AEF2 /* Sources */,
+				3593CAF31E706F450008AEF2 /* Frameworks */,
+				3593CAF41E706F450008AEF2 /* Resources */,
+				656E8042E71C0A0912EE5330 /* [CP] Embed Pods Frameworks */,
+				F0E340C0F47A42899AAB27A3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jolly;
+			productName = Jolly;
+			productReference = 3593CAF61E706F450008AEF2 /* Jolly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3593CB091E706F450008AEF2 /* JollyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3593CB211E706F450008AEF2 /* Build configuration list for PBXNativeTarget "JollyTests" */;
+			buildPhases = (
+				3593CB061E706F450008AEF2 /* Sources */,
+				3593CB071E706F450008AEF2 /* Frameworks */,
+				3593CB081E706F450008AEF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3593CB0C1E706F450008AEF2 /* PBXTargetDependency */,
+			);
+			name = JollyTests;
+			productName = JollyTests;
+			productReference = 3593CB0A1E706F450008AEF2 /* JollyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3593CB141E706F450008AEF2 /* JollyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3593CB241E706F450008AEF2 /* Build configuration list for PBXNativeTarget "JollyUITests" */;
+			buildPhases = (
+				3593CB111E706F450008AEF2 /* Sources */,
+				3593CB121E706F450008AEF2 /* Frameworks */,
+				3593CB131E706F450008AEF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3593CB171E706F450008AEF2 /* PBXTargetDependency */,
+			);
+			name = JollyUITests;
+			productName = JollyUITests;
+			productReference = 3593CB151E706F450008AEF2 /* JollyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3593CAEE1E706F450008AEF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Venkatesh Jujjavarapu";
+				TargetAttributes = {
+					3593CAF51E706F450008AEF2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Q2JAN5SRG2;
+						ProvisioningStyle = Automatic;
+					};
+					3593CB091E706F450008AEF2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Q2JAN5SRG2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3593CAF51E706F450008AEF2;
+					};
+					3593CB141E706F450008AEF2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Q2JAN5SRG2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3593CAF51E706F450008AEF2;
+					};
+				};
+			};
+			buildConfigurationList = 3593CAF11E706F450008AEF2 /* Build configuration list for PBXProject "Jolly" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3593CAED1E706F450008AEF2;
+			productRefGroup = 3593CAF71E706F450008AEF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3593CAF51E706F450008AEF2 /* Jolly */,
+				3593CB091E706F450008AEF2 /* JollyTests */,
+				3593CB141E706F450008AEF2 /* JollyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3593CAF41E706F450008AEF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3593CB041E706F450008AEF2 /* LaunchScreen.storyboard in Resources */,
+				3593CB011E706F450008AEF2 /* Assets.xcassets in Resources */,
+				3593CB2C1E7074090008AEF2 /* Podfile in Resources */,
+				3593CAFF1E706F450008AEF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3593CB081E706F450008AEF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3593CB131E706F450008AEF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4623ACD63278D7924F2C9AD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		656E8042E71C0A0912EE5330 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jolly/Pods-Jolly-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0E340C0F47A42899AAB27A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jolly/Pods-Jolly-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3593CAF21E706F450008AEF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3593CB281E7072490008AEF2 /* YelpAuthentication.swift in Sources */,
+				3593CB2A1E7073390008AEF2 /* YelpSetup.swift in Sources */,
+				3593CB301E70870F0008AEF2 /* YelpBusinessViewModel.swift in Sources */,
+				3514A2A31E7B2362006F5BFE /* YelpBusiness.swift in Sources */,
+				3593CB391E71CFFD0008AEF2 /* YBCell.swift in Sources */,
+				3593CB3F1E71D5ED0008AEF2 /* YelpBusinessCoordinate.swift in Sources */,
+				3593CAFC1E706F450008AEF2 /* ViewController.swift in Sources */,
+				3593CB3B1E71D3D50008AEF2 /* YelpRichBusinessDetail.swift in Sources */,
+				3593CB3D1E71D4F70008AEF2 /* YelpBusinessCategory.swift in Sources */,
+				3593CAFA1E706F450008AEF2 /* AppDelegate.swift in Sources */,
+				3593CB411E71D7060008AEF2 /* YelpBusinessLocation.swift in Sources */,
+				35C85B761E798FEB001DDE09 /* YelpRichBusinessDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3593CB061E706F450008AEF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3593CB0F1E706F450008AEF2 /* JollyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3593CB111E706F450008AEF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3593CB1A1E706F450008AEF2 /* JollyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3593CB0C1E706F450008AEF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3593CAF51E706F450008AEF2 /* Jolly */;
+			targetProxy = 3593CB0B1E706F450008AEF2 /* PBXContainerItemProxy */;
+		};
+		3593CB171E706F450008AEF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3593CAF51E706F450008AEF2 /* Jolly */;
+			targetProxy = 3593CB161E706F450008AEF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3593CAFD1E706F450008AEF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3593CAFE1E706F450008AEF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3593CB021E706F450008AEF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3593CB031E706F450008AEF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3593CB1C1E706F450008AEF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3593CB1D1E706F450008AEF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3593CB1F1E706F450008AEF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAA46FC34B542CB38D9AB5B7 /* Pods-Jolly.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q2JAN5SRG2;
+				INFOPLIST_FILE = Jolly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.venkateshjujjavarapu.Jolly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3593CB201E706F450008AEF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E636E15433FFD103FEDE2DB9 /* Pods-Jolly.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q2JAN5SRG2;
+				INFOPLIST_FILE = Jolly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.venkateshjujjavarapu.Jolly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3593CB221E706F450008AEF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Q2JAN5SRG2;
+				INFOPLIST_FILE = JollyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.venkateshjujjavarapu.JollyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jolly.app/Jolly";
+			};
+			name = Debug;
+		};
+		3593CB231E706F450008AEF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Q2JAN5SRG2;
+				INFOPLIST_FILE = JollyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.venkateshjujjavarapu.JollyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jolly.app/Jolly";
+			};
+			name = Release;
+		};
+		3593CB251E706F450008AEF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Q2JAN5SRG2;
+				INFOPLIST_FILE = JollyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.venkateshjujjavarapu.JollyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Jolly;
+			};
+			name = Debug;
+		};
+		3593CB261E706F450008AEF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Q2JAN5SRG2;
+				INFOPLIST_FILE = JollyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.venkateshjujjavarapu.JollyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Jolly;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3593CAF11E706F450008AEF2 /* Build configuration list for PBXProject "Jolly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3593CB1C1E706F450008AEF2 /* Debug */,
+				3593CB1D1E706F450008AEF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3593CB1E1E706F450008AEF2 /* Build configuration list for PBXNativeTarget "Jolly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3593CB1F1E706F450008AEF2 /* Debug */,
+				3593CB201E706F450008AEF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3593CB211E706F450008AEF2 /* Build configuration list for PBXNativeTarget "JollyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3593CB221E706F450008AEF2 /* Debug */,
+				3593CB231E706F450008AEF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3593CB241E706F450008AEF2 /* Build configuration list for PBXNativeTarget "JollyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3593CB251E706F450008AEF2 /* Debug */,
+				3593CB261E706F450008AEF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3593CAEE1E706F450008AEF2 /* Project object */;
+}
